@@ -6,7 +6,7 @@ This terraform module provisions the resources needed for using the [terraform s
 
 ```hcl
 module "my_backend" {
-  source = "git@github.com:AaronNBrock/terraform-aws-s3-backend-resources.git?ref=v0.1.0"
+  source = "git@github.com:AaronNBrock/terraform-aws-s3-backend-resources.git"
   backend_name = "my-backend-name"
 }
 ```
